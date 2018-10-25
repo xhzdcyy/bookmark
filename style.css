@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+kbd{
+    border: 1px solid red;
+    display: inline-block;
+    width: 4em;
+    height:4em;
+    text-transform: uppercase;
+    position: relative;
+}
+kbd>button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+kbd:hover>button{
+    display: inline-block;
+}
+main{
+    text-align: center;
+}
+
+#kb{
+    display: inline;
+}
+#kb>div:nth-child(2){
+    margin-left: 1em;
+}
+
+
+#kb>div:nth-child(3){
+    margin-left: 2em;
+}
